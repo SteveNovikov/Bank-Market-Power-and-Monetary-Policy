@@ -1,0 +1,54 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{center}
+\begin{tabular}{lcccccc} \hline
+ & (1) & (2) & (3) & (4) & (5) & (6) \\
+ & 2017q4-2021q3 & 2017q4-2021q3 & 2017q4-2021q3 & 2017q4-2021q3 & 2017q4-2021q3 & 2017q4-2021q3 \\
+ & Wins & Wins & Wins & Wins & Wins & Wins \\
+VARIABLES & Deposit cond & Deposit cond & Deposit cond & ln Deposits & ln Deposits & ln Deposits \\ \hline
+\vspace{4pt} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} \\
+D\_key\_rate\_lag2 & 0.0398 &  &  & 0.0259 &  &  \\
+\vspace{4pt} & \begin{footnotesize}(0.0548)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.0207)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} \\
+D\_key\_rate\_lag1 & 0.108* &  &  & -0.0410** &  &  \\
+\vspace{4pt} & \begin{footnotesize}(0.0639)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.0185)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} \\
+D\_key\_rate & 0.0926** & 0.0631* & 0.0538** & -0.0318*** & -0.0336*** & -0.0133 \\
+\vspace{4pt} & \begin{footnotesize}(0.0371)\end{footnotesize} & \begin{footnotesize}(0.0375)\end{footnotesize} & \begin{footnotesize}(0.0259)\end{footnotesize} & \begin{footnotesize}(0.0110)\end{footnotesize} & \begin{footnotesize}(0.0107)\end{footnotesize} & \begin{footnotesize}(0.00948)\end{footnotesize} \\
+D\_key\_rate\_lead1 & -0.0300 & -0.0530* &  & 0.0535*** & 0.0561*** &  \\
+\vspace{4pt} & \begin{footnotesize}(0.0374)\end{footnotesize} & \begin{footnotesize}(0.0321)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.0120)\end{footnotesize} & \begin{footnotesize}(0.0114)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} \\
+D\_key\_rate\_lead2 & 0.0364 & -0.0100 &  & -0.0324* & -0.0365*** &  \\
+\vspace{4pt} & \begin{footnotesize}(0.0473)\end{footnotesize} & \begin{footnotesize}(0.0230)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.0186)\end{footnotesize} & \begin{footnotesize}(0.00825)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} \\
+m\_D\_wins & 0.00219 & 0.00461 & 0.00720 & -0.00174 & -0.00114 & -0.00113 \\
+\vspace{4pt} & \begin{footnotesize}(0.0211)\end{footnotesize} & \begin{footnotesize}(0.00920)\end{footnotesize} & \begin{footnotesize}(0.00523)\end{footnotesize} & \begin{footnotesize}(0.00411)\end{footnotesize} & \begin{footnotesize}(0.00194)\end{footnotesize} & \begin{footnotesize}(0.00120)\end{footnotesize} \\
+m\_D\_wins\_D\_key\_rate\_lag2 & -0.0264 &  &  & -0.0103 &  &  \\
+\vspace{4pt} & \begin{footnotesize}(0.0292)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.0164)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} \\
+m\_D\_wins\_D\_key\_rate\_lag1 & 0.000514 &  &  & 0.00726 &  &  \\
+\vspace{4pt} & \begin{footnotesize}(0.0151)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.00730)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} \\
+m\_D\_wins\_D\_key\_rate & 0.0495 & 0.00380 & 0.0143 & 0.0121 & -0.00592 & -0.00204 \\
+\vspace{4pt} & \begin{footnotesize}(0.0311)\end{footnotesize} & \begin{footnotesize}(0.0233)\end{footnotesize} & \begin{footnotesize}(0.0106)\end{footnotesize} & \begin{footnotesize}(0.0147)\end{footnotesize} & \begin{footnotesize}(0.00629)\end{footnotesize} & \begin{footnotesize}(0.00241)\end{footnotesize} \\
+m\_D\_wins\_D\_key\_rate\_lead1 & 0.00717 & 0.0416 &  & -0.0190 & 0.00371 &  \\
+\vspace{4pt} & \begin{footnotesize}(0.0365)\end{footnotesize} & \begin{footnotesize}(0.0474)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.0210)\end{footnotesize} & \begin{footnotesize}(0.0105)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} \\
+m\_D\_wins\_D\_key\_rate\_lead2 & -0.0122 & -0.0166* &  & 0.00217 & -0.000147 &  \\
+\vspace{4pt} & \begin{footnotesize}(0.0128)\end{footnotesize} & \begin{footnotesize}(0.00866)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}(0.00570)\end{footnotesize} & \begin{footnotesize}(0.00263)\end{footnotesize} & \begin{footnotesize}\end{footnotesize} \\
+Capital\_ratio & 1.440 & 0.693 & 0.774 & -1.025*** & -0.898** & -0.712** \\
+\vspace{4pt} & \begin{footnotesize}(1.192)\end{footnotesize} & \begin{footnotesize}(0.865)\end{footnotesize} & \begin{footnotesize}(0.605)\end{footnotesize} & \begin{footnotesize}(0.355)\end{footnotesize} & \begin{footnotesize}(0.354)\end{footnotesize} & \begin{footnotesize}(0.329)\end{footnotesize} \\
+Liquidity\_ratio & -0.0253 & 0.0706 & -0.0144 & 0.359 & 0.110 & -0.0785 \\
+\vspace{4pt} & \begin{footnotesize}(0.600)\end{footnotesize} & \begin{footnotesize}(0.487)\end{footnotesize} & \begin{footnotesize}(0.451)\end{footnotesize} & \begin{footnotesize}(0.280)\end{footnotesize} & \begin{footnotesize}(0.291)\end{footnotesize} & \begin{footnotesize}(0.264)\end{footnotesize} \\
+Core\_deposits\_wins & -0.616 & 0.109 & 0.0789 & 0.215 & 0.358 & 0.444** \\
+\vspace{4pt} & \begin{footnotesize}(1.381)\end{footnotesize} & \begin{footnotesize}(0.942)\end{footnotesize} & \begin{footnotesize}(0.673)\end{footnotesize} & \begin{footnotesize}(0.228)\end{footnotesize} & \begin{footnotesize}(0.242)\end{footnotesize} & \begin{footnotesize}(0.203)\end{footnotesize} \\
+CPI & -0.0278 & 0.00631 & -0.000345 & -0.00609 & 8.57e-05 & 0.00226 \\
+\vspace{4pt} & \begin{footnotesize}(0.0267)\end{footnotesize} & \begin{footnotesize}(0.0137)\end{footnotesize} & \begin{footnotesize}(0.0110)\end{footnotesize} & \begin{footnotesize}(0.00754)\end{footnotesize} & \begin{footnotesize}(0.00433)\end{footnotesize} & \begin{footnotesize}(0.00385)\end{footnotesize} \\
+GDP\_growth & -0.00433 & 0.00734 & 0.000113 & 0.00450 & -0.00131 & 0.000363 \\
+\vspace{4pt} & \begin{footnotesize}(0.00832)\end{footnotesize} & \begin{footnotesize}(0.00540)\end{footnotesize} & \begin{footnotesize}(0.00426)\end{footnotesize} & \begin{footnotesize}(0.00278)\end{footnotesize} & \begin{footnotesize}(0.00166)\end{footnotesize} & \begin{footnotesize}(0.00157)\end{footnotesize} \\
+Constant & 0.540 & -0.271 & -0.208 & -0.0623 & -0.215 & -0.318* \\
+ & \begin{footnotesize}(1.271)\end{footnotesize} & \begin{footnotesize}(0.838)\end{footnotesize} & \begin{footnotesize}(0.609)\end{footnotesize} & \begin{footnotesize}(0.204)\end{footnotesize} & \begin{footnotesize}(0.216)\end{footnotesize} & \begin{footnotesize}(0.180)\end{footnotesize} \\
+\vspace{4pt} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} & \begin{footnotesize}\end{footnotesize} \\
+Observations & 349 & 455 & 573 & 349 & 455 & 573 \\
+$R^2$ & 0.120 & 0.093 & 0.077 & 0.360 & 0.268 & 0.152 \\
+Time FE & No & No & No & No & No & No \\
+ Bank FE & Yes & Yes & Yes & Yes & Yes & Yes \\ \hline
+\multicolumn{7}{c}{\begin{footnotesize} Robust standard errors in parentheses\end{footnotesize}} \\
+\multicolumn{7}{c}{\begin{footnotesize} *** p$<$0.01, ** p$<$0.05, * p$<$0.1\end{footnotesize}} \\
+\end{tabular}
+\end{center}
+\end{document}
